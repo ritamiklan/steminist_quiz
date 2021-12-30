@@ -6,15 +6,21 @@ export default function Answer() {
 
     useEffect(() => {
         fetch('https://women-in-tech.apievangelist.com/apis/people/')
-        .then(response => response.json)
+        .then(response => response.json())
         .then(responseData => {
-            setAnswer(responseData.name);
+            setAnswer(responseData);
         });
     }, [])
 
+
+    const quizResult = answer.map((steminist, index) => 
+            <p> {steminist.name}</p>
+   )
+
     return(
         <div>
-            Your STEMinist hero is {answer}
+            <h2>Your STEMinist hero is</h2>
+            <div></div>
         </div>
 
     )
