@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div class="header">
+        <div className="header">
           <h2>STEMinist personality test</h2>
         </div>
       </header>
@@ -16,7 +16,7 @@ function App() {
         <Quiz />
       </main>
       <footer>
-        <div class="footer">
+        <div className="footer">
           <p>(c) STEMinist webapp 2021</p>
         </div>
       </footer>
