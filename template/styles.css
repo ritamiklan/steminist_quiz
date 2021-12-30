@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+/* Header */
+
+header {
+    display: flex;
+}
+
+.header {
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(97, 105, 216);
+}
+
+.header > h2 {
+    color: #f8f8f8;
+    margin: 30px;
+}
+
+/* Main */
+
+main {
+    margin: 30px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+}
+
+.footer {
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    background-color: rgb(97, 105, 216);
+}
+
+.footer > p {
+    color: #f8f8f8;
+    margin: 30px;
+}
