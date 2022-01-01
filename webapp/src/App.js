@@ -1,25 +1,16 @@
 import "./App.css";
 import Quiz from "./components/Quiz";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className="header">
-          <h2>STEMinist personality test</h2>
-        </div>
-      </header>
+      <Header />
       <main>
-        <div>
-          <h3>Find out which STEMinist hero matches you!</h3>
-        </div>
         <Quiz />
       </main>
-      <footer>
-        <div className="footer">
-          <p>(c) STEMinist webapp 2021</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
