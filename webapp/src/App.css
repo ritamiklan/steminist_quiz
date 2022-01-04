@@ -43,3 +43,7 @@ footer {
   color: #f8f8f8;
   margin: 30px;
 }
+
+form > p {
+  font-weight: bold;
+}
